@@ -69,13 +69,6 @@ This project is divided in two parts:
   - the frontend, a `library` template library.
   - the backend with a node module and a MongoDB module. You can update the frontend/backend as you need to build your own app.
 
-Regarding MongoDB, we provide a template module  in the `src/mongodb.js`. To use your own MongoDB instance, replace the `URI` constant by your own.
-
-```js
-const URI = 'mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]';
-```
-
-
 You can create new functions that can be called by the library. Add them in `src/index.js` or into another module and export it. The platform manages the [Express](https://expressjs.com/) layers automatically.
 
 

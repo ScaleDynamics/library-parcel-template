@@ -3,9 +3,12 @@
 # dependencies
 node_modules/
 dist/
-.cache/
+.parcel-cache/
 .warp
 .env/
+
+src/.microservice/*.ts
+src/.microservice/*.js
 
 
 # misc
